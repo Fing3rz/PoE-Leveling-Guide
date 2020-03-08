@@ -1,0 +1,4 @@
+- Info (Tip)
+> Go (Walk/Teleport)
++ Do (Objective)
+< Complete (Return)

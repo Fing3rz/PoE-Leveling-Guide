@@ -1,0 +1,11 @@
++ Get WP
++ Find Storm-Weathered Chest, Kill Mummies and take The Storm Blade
+< Portal to Highgate
+< "The Storm Blade" (Petarus and Vanja)
++ Talk to Sin
++ Talk to Petarus and Vanja
+> TP to the Vastiri Desert
+> The Oasis
+
+- If coming from Highgate (after killing Skakari)
+> The Foothills

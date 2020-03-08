@@ -410,7 +410,7 @@ DrawZone:
     zone_toggle := 1
 
     Gui, Controls:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndControls
-    Gui, Controls:Color, gray
+    Gui, Controls:Color, black
     Gui, Controls:Font, s%points%, Consolas
     Gui, Controls:Add, DropDownList, VCurrentZone GzoneSelectUI x0 y0 w%notes_width% h300 , % GetDelimitedZoneListString(data.zones, CurrentAct)
     Gui, Controls:Add, DropDownList, VCurrentAct GactSelectUI x+5 y0 w%nav_width% h200 , % GetDelimitedActListString(data.zones, CurrentAct, CurrentPart)
@@ -421,14 +421,14 @@ DrawZone:
     Gui, Controls:Show, h%control_height% w%control_width% x%xPos% y5 NA, Controls
 
     Gui, Gems:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndGems
-    Gui, Gems:Color, gray
+    Gui, Gems:Color, black
     Gui, Gems:Font, s%points%, Consolas
     Gui, Gems:Add, DropDownList, VCurrentGem GgemSelectUI x0 y0 w%gems_width% h300 , % GetDelimitedPartListString(gem_data.levels, CurrentGem)
     Gui, Gems:+OwnerParent
     Gui, Gems:Show, h%control_height% w%gems_width% x%xPosGems% y%yPosGems% NA, Gems
 
     Gui, Level:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndLevel
-    Gui, Level:Color, gray
+    Gui, Level:Color, black
     Gui, Level:Font, s%points%, Consolas
     Gui, Level:Add, Edit, x0 y0 h%control_height% w%level_width% r1 GlevelSelectUI, Level
     Gui, Level:Add, UpDown, x5 vCurrentLevel GlevelSelectUI Range1-100, 1
@@ -439,7 +439,7 @@ return
 ;Never called, moved to draw zone, may use again in the future
 DrawLevel:
     Gui, Level:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndlevel
-    Gui, Level:Color, gray
+    Gui, Level:Color, black
     Gui, Level:Font, s%points%, Consolas
     Gui, Level:Add, Edit, x0 y0 h%control_height% w%level_width% r1 GlevelSelectUI, Level
     Gui, Level:Add, UpDown, x5 vCurrentLevel GlevelSelectUI Range1-100, 1
@@ -450,7 +450,7 @@ return
 DrawExp:
   Gui, Exp:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndExp
   Gui, Exp:font, cFFFFFF s%points% w%level_width%, Consolas
-  Gui, Exp:Color, gray
+  Gui, Exp:Color, black
   WinSet, Transparent, %opacity%
 
   calcExp := "Exp: 100.0%   Over: +10"
@@ -464,7 +464,7 @@ setNotes:
   Gui, Notes:Destroy
   Gui, Notes:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndNotesWindow
   Gui, Notes:font, cFFFFFF s%points% w%notes_width%, Consolas
-  Gui, Notes:Color, gray
+  Gui, Notes:Color, black
   WinSet, Transparent, %opacity%
   Gui, Notes:Margin, 3, 3
 
@@ -484,12 +484,12 @@ setNotes:
       Gui, Notes:font, c00FF00
       StringTrimLeft, val, val, 2
     } Else If (colorTest = "+ ") {
-      Gui, Notes:font, c00FF00
+      Gui, Notes:font, cFFFF00
     } Else If (colorTest = "B,") {
-      Gui, Notes:font, c0000FF
+      Gui, Notes:font, c00FFFF
       StringTrimLeft, val, val, 2
     } Else If (colorTest = "> ") {
-      Gui, Notes:font, c0000FF
+      Gui, Notes:font, c00FF00
     } Else If (colorTest = "W,") {
       Gui, Notes:font, cFFFFFF
       StringTrimLeft, val, val, 2
@@ -539,7 +539,7 @@ setGuide:
   Gui, Guide:Destroy
   Gui, Guide:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndGuideWindow
   Gui, Guide:font, cFFFFFF s%points% w%guide_width%, Consolas
-  Gui, Guide:Color, gray
+  Gui, Guide:Color, black
   WinSet, Transparent, %opacity%
   Gui, Guide:Margin, 3, 3
 
@@ -559,12 +559,12 @@ setGuide:
       Gui, Guide:font, c00FF00
       StringTrimLeft, val, val, 2
     } Else If (colorTest = "+ ") {
-      Gui, Guide:font, c00FF00
+      Gui, Guide:font, cFFFF00
     } Else If (colorTest = "B,") {
-      Gui, Guide:font, c0000FF
+      Gui, Guide:font, c00FFFF
       StringTrimLeft, val, val, 2
     } Else If (colorTest = "> ") {
-      Gui, Guide:font, c0000FF
+      Gui, Guide:font, c00FF00
     } Else If (colorTest = "W,") {
       Gui, Guide:font, cFFFFFF
       StringTrimLeft, val, val, 2
@@ -678,7 +678,7 @@ SetGems:
   Gui, Links:Destroy
   Gui, Links:+E0x20 -DPIScale -Caption +LastFound +ToolWindow +AlwaysOnTop +hwndLinksWindow
   Gui, Links:font, cFFFFFF s%points% w%links_width%, Consolas
-  Gui, Links:Color, gray
+  Gui, Links:Color, black
   WinSet, Transparent, %opacity%
   Gui, Links:Margin, 3, 3
 
@@ -690,7 +690,7 @@ SetGems:
       {
         gem_array := StrSplit(levelGroup.links[A_Index], ",")
         If(gem_array[1] = "B"){
-          Gui, Links:font, c0000FF
+          Gui, Links:font, c00FFFF
         }
         If(gem_array[1] = "R"){
           Gui, Links:font, cFF0000

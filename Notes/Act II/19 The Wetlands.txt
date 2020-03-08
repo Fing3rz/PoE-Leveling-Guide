@@ -1,0 +1,15 @@
++ KILL Oak
++ Get WP
+- Choose one (KILLED ALL, HELP Alira, HELP Kraityn)
+
+< TP to the Forest Encampment (KILLED All)
+< "Deal with the Bandits" (Eramir) PASSIVES (KILLED All)
+> TP to the Wetlands (KILLED All)
+
+> TP to the Western Forest (HELP Alira)
+
+< TP to the Western Forest (HELP Kraityn)
+> The Broken Bridge (HELP Kraityn)
+
+- If coming from Forest Encampment (after Bandits)
+> The Vaal Ruins

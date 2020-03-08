@@ -1,0 +1,13 @@
++ Get WP
+< TP to Highgate
+< "An Indomitable Spirit" (Tasuni) PASSIVE
+< "Breaking the Seal" (Oyun) GEMS
+> TP to the Crystal Veins
+> Daresso's Dream
+
+- If coming from Highgate (after killing Daresso)
+> Kaom's Dream
+
+- If coming from Highgate (after killing Kaom)
++ Talk to Dialla
+> The Belly of the Beast Level 1

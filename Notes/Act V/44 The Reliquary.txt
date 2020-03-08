@@ -1,0 +1,6 @@
++ Get WP
++ Find Kitava's Torments
+< Portal to Overseer's Tower
+< "Kitava's Torments" (Lani) PASSIVE
+< "Death to Purity" (Lani)
+> TP to the Ruined Square

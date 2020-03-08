@@ -1,0 +1,5 @@
++ Open Supply Container and take Thaumetic Sulphate
++ Get WP
+< TP to the Sarn Encampment
+< "Victario's Secrets" (Hargan) PASSIVE
+> TP to the Solaris Temple Level 2

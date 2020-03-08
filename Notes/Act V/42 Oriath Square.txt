@@ -1,0 +1,6 @@
++ Get WP
+< TP to Overseer's Tower
+< "The Key to Freedom" (Lani) FLASK
+< "In Service to Science" (Vilenta) PASSIVE
+> TP to Oriath Square
+> Templar Courts Entrance

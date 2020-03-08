@@ -1,0 +1,4 @@
+> Stairs
++ Wait and talk to Kirac
+< Portal to Oriath
+> The Fallen Courts

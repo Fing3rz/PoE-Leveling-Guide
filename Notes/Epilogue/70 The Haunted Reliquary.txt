@@ -1,0 +1,14 @@
+> The Haunted Reliquary
++ Open the Vault
++ Stand on the symbol to unlock the door
+> Stairs
++ Stand next to Kirac (to update the quest)
+< Portal to Oriath
++ Talk to Helena (only to unlock hideout)
+> TP to your Hideout
++ Talk to Kirac, choose a map and complete it
+< "Picking Up the Pieces" (Kirac) MAPS
+- CONGRATS! YOUR FINISHED!...jk
++ Do Maps/Zana Missions to find Uber Lab Trials 1-6
++ Run Uber Labyrinth
++ Defeat Conquerer's of the Atlas

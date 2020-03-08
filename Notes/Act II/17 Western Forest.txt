@@ -1,0 +1,9 @@
++ Get WP
++ Kill Blackguards and open the Blocked Pass
++ KILL Alira OR SKIP Alira
+> The Weaver's Chambers
+
+- If coming from Wetlands (HELP Alira)
++ HELP Alira
+< Portal to the Forest Encampment
+> TP to the Wetlands

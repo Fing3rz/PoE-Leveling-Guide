@@ -1,0 +1,6 @@
+> Portal
++ Kill Piety
+< Portal to the Sarn Encampment
+< "Piety's Pets" (Grigor) PASSIVE
+< "Sever the Right Hand" (Maramoa) GEMS
+> TP to the Ebony Barracks

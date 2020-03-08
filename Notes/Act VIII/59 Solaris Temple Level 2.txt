@@ -1,0 +1,6 @@
+> Portal
++ Kill Dawn and take the Sun Orb
+< Portal to the Sarn Encampment
+< "Love is Dead" (Clarissa) PASSIVE
+< "The Gemling Legion" (Maramoa) PASSIVE
+> TP to the Lunaris Concourse

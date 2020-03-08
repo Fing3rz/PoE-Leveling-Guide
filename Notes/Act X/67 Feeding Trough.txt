@@ -1,0 +1,7 @@
++ Talk to Sin
+> Altar of Hunger
++ Kill Kitava
++ Talk to Sin
+> Oriath
+< "An End to Hunger" (Lani) PASSIVES
+> The Templar Laboratory

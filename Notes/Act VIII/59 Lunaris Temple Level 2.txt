@@ -1,0 +1,5 @@
+> Portal
++ Kill Dusk and take the Moon Orb
+< Portal to the Sarn Encampment
+< "Essence of the Hag" (Hargan) PASSIVE
+> TP to the Toxic Conduits

@@ -1,0 +1,5 @@
++ Kill the Dweller of the Deep
+< Portal to Lioneye's Watch
+< "Breaking Some Eggs" (Tarkleigh) GEMS/FLASK
+< "The Dweller of the Deep" (Tarkleigh) PASSIVE
+> TP to Submerged Passage
